@@ -1,11 +1,18 @@
 # standing-orders-services
 
+📚 Getting Started
+
 ## maven
 
 ```bash
 
 mvn spotless:apply
 ```
+
+🤝 Contribution
+
+![Alt](https://repobeats.axiom.co/api/embed/f9c25beed25974a06401d58b7480a1057d014820.svg "Repobeats analytics image")
+
 [![SonarQube Cloud](https://sonarcloud.io/images/project_badges/sonarcloud-light.svg)](https://sonarcloud.io/summary/new_code?id=rock-hu_standing-orders-services)
 [![Bugs](https://sonarcloud.io/api/project_badges/measure?project=rock-hu_standing-orders-services&metric=bugs)](https://sonarcloud.io/summary/new_code?id=rock-hu_standing-orders-services)
 [![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=rock-hu_standing-orders-services&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=rock-hu_standing-orders-services)
