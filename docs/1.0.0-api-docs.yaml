@@ -120,5 +120,4 @@ paths:
                 $ref: "#/components/schemas/OBReadStandingOrder6"
 components:
   schemas:
-    OBReadStandingOrder6:
-      type: object
+    OBReadStandingOrder6: {}
