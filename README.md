@@ -1,7 +1,9 @@
 # standing-orders-services
 
+[![CircleCI](https://circleci.com/gh/rock-hu/standing-orders-services.svg?style=svg)](https://circleci.com/gh/rock-hu/standing-orders-services)
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Frock-hu%2Fstanding-orders-services.svg?type=shield&issueType=license)](https://app.fossa.com/projects/git%2Bgithub.com%2Frock-hu%2Fstanding-orders-services?ref=badge_shield&issueType=license)
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Frock-hu%2Fstanding-orders-services.svg?type=shield&issueType=security)](https://app.fossa.com/projects/git%2Bgithub.com%2Frock-hu%2Fstanding-orders-services?ref=badge_shield&issueType=security)
+
 
 📚 Getting Started
 
