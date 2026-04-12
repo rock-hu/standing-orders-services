@@ -6,7 +6,7 @@ package com.openbanking.standing.orders.model;
 public enum OBExternalStandingOrderStatus1Code {
 	ACTIVE("Active"), INACTIVE("Inactive");
 
-	private String value;
+	private final String value;
 
 	OBExternalStandingOrderStatus1Code(String value) {
 		this.value = value;
@@ -14,7 +14,7 @@ public enum OBExternalStandingOrderStatus1Code {
 
 	@Override
 	public String toString() {
-		return String.valueOf(value);
+		return value;
 	}
 
 	public static OBExternalStandingOrderStatus1Code fromValue(String text) {

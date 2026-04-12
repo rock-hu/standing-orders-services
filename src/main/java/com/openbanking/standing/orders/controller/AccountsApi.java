@@ -6,21 +6,18 @@ import io.swagger.v3.oas.annotations.Parameter;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestHeader;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
 
 @Tag(name = "accounts", description = "accounts")
-@RequestMapping(value = "")
+@RequestMapping("")
 public interface AccountsApi {
 
 	@Operation(summary = "Get Standing Orders", operationId = "getAccountsAccountIdStandingOrders", description = "", tags = { "Standing Orders", })
 
-	@RequestMapping(
-			value = "/accounts/{AccountId}/standing-orders",
-			produces = { "application/json; charset=utf-8", "application/json", "application/jose+jwe" },
-			method = RequestMethod.GET)
+	@GetMapping(value = "/accounts/{AccountId}/standing-orders", produces = { "application/json; charset=utf-8", "application/json", "application/jose+jwe" })
 	default ResponseEntity<OBReadStandingOrder6> getAccountsAccountIdStandingOrders(@Parameter(name = "AccountId", required = true)
 	@PathVariable("AccountId")
 	String accountId, @Parameter(name = "An Authorisation Token as per https://tools.ietf.org/html/rfc6750", required = true)

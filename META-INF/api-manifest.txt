@@ -1,0 +1,2 @@
+GET /standing-orders
+GET /accounts/{AccountId}/standing-orders
