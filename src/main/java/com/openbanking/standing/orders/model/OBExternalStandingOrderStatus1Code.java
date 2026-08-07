@@ -4,25 +4,26 @@ package com.openbanking.standing.orders.model;
  * Specifies the status of the standing order in code form.
  */
 public enum OBExternalStandingOrderStatus1Code {
-	ACTIVE("Active"), INACTIVE("Inactive");
+    ACTIVE("Active"),
+    INACTIVE("Inactive");
 
-	private final String value;
+    private final String value;
 
-	OBExternalStandingOrderStatus1Code(String value) {
-		this.value = value;
-	}
+    OBExternalStandingOrderStatus1Code(String value) {
+        this.value = value;
+    }
 
-	@Override
-	public String toString() {
-		return value;
-	}
+    @Override
+    public String toString() {
+        return value;
+    }
 
-	public static OBExternalStandingOrderStatus1Code fromValue(String text) {
-		for (OBExternalStandingOrderStatus1Code b : OBExternalStandingOrderStatus1Code.values()) {
-			if (String.valueOf(b.value).equals(text)) {
-				return b;
-			}
-		}
-		return null;
-	}
+    public static OBExternalStandingOrderStatus1Code fromValue(String text) {
+        for (OBExternalStandingOrderStatus1Code b : OBExternalStandingOrderStatus1Code.values()) {
+            if (String.valueOf(b.value).equals(text)) {
+                return b;
+            }
+        }
+        return null;
+    }
 }

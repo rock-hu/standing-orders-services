@@ -9,12 +9,10 @@ import lombok.Setter;
 /**
  * The amount of the next Standing Order.
  */
-
 @Schema(description = "The amount of the next Standing Order.")
 @Getter
 @Setter
 public class OBActiveOrHistoricCurrencyAndAmount3 implements Serializable {
-	@Serial
-	private static final long serialVersionUID = 1L;
-
+    @Serial
+    private static final long serialVersionUID = 1L;
 }

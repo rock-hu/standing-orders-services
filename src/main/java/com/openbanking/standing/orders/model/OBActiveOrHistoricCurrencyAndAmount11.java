@@ -9,12 +9,10 @@ import lombok.Setter;
 /**
  * The amount of the last (most recent) Standing Order instruction.
  */
-
 @Schema(description = "The amount of the last (most recent) Standing Order instruction.")
 @Getter
 @Setter
 public class OBActiveOrHistoricCurrencyAndAmount11 implements Serializable {
-	@Serial
-	private static final long serialVersionUID = 1L;
-
+    @Serial
+    private static final long serialVersionUID = 1L;
 }
